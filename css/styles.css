@@ -1,10 +1,7 @@
-@font-face {font-family: "Bradley Hand ITC";
-    src: url("http://db.onlinewebfonts.com/t/240f5365316d9d6acce08753b5a3a28d.eot");
-    src: url("http://db.onlinewebfonts.com/t/240f5365316d9d6acce08753b5a3a28d.eot?#iefix") format("embedded-opentype"),
-    url("http://db.onlinewebfonts.com/t/240f5365316d9d6acce08753b5a3a28d.woff2") format("woff2"),
-    url("http://db.onlinewebfonts.com/t/240f5365316d9d6acce08753b5a3a28d.woff") format("woff"),
-    url("http://db.onlinewebfonts.com/t/240f5365316d9d6acce08753b5a3a28d.ttf") format("truetype"),
-    url("http://db.onlinewebfonts.com/t/240f5365316d9d6acce08753b5a3a28d.svg#Bradley Hand ITC") format("svg");
+@font-face {
+  font-family: 'MyWebFont';  
+  src: url('fonts/BRADHITC.ttf')  format('truetype'), /* Safari, Android, iOS */
+      
 }
 #wrapper {
     width: 100%;
@@ -13,7 +10,7 @@
 }
 
 .par-title {
-    font-family: 'Bradley Hand ITC',monospace;
+    font-family: 'MyWebFont',monospace;
     font-size: 300%;
     text-align: center;
     letter-spacing: 12px;
