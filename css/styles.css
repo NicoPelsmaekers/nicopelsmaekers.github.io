@@ -3,9 +3,7 @@
   src: url('https://nicopelsmaekers.github.io/fonts/BRADHITC.ttf') format('truetype'); /* Safari, Android, iOS */
       
 }
-body{
-    background-color: #F2D968;
-}
+
 #wrapper {
     width: 100%;
     margin: auto;
