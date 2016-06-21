@@ -8,12 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-    
     <script src="js/bootstrap.js"></script>
     <!--Stylesheet -->
     <link rel="stylesheet" href="css/styles.css">
 
-    <title>Cuba Libre Mechelen</title>
+    <title>Foto's | Cuba Libre Mechelen</title>
     <link rel="icon" href="img/icon/favicon.PNG" type="image/x-icon" />
 
 
@@ -24,10 +23,16 @@
 
     <div id="wrapper">
         <div id="topwrapper">
-            <h1 class="par-title"><strong>Cuba L<span id="CubaI">i</span>bre</strong></h1>
-
+            <div class="social hide">
+                <ul>             
+                  <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                  <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                </ul>
+            </div>
+            <h1 class="par-title"><strong>Cuba L<span id="CubaI">i</span>bre - Foto's</strong></h1>
+            
         </div>
-        <div id="content">
+      <!-- <div id="content">
             <div id="gradientcolor">
 
                 <div id="overview">
@@ -35,9 +40,9 @@
                         <div class="hovereffect">
                             <img class="img-responsive" src="img/Quote_1.png" alt="">
                            
-                                <a href="ginbar.html">
+                                <a href="index.html">
                                     <div class="overlay">
-                                       <h2>Gin Bar</h2>
+                                       <h2>Home</h2>
                                     </div>
                                 </a>
                            
@@ -53,7 +58,7 @@
                                 </a>
                         </div>
                     </div>
-                    <!-- col-lg-3 col-md-4 col-sm-6 col-xs-12-->
+                    
                     <div class="overview-img col-md-4 col-sm-6 col-xs-10 col-md-offset-0 col-sm-offset-0 col-xs-offset-2">
                         <div class="hovereffect">
                             <img class="img-responsive" src="img/Quote_3_1.jpg" alt="">
@@ -71,19 +76,26 @@
 
 
             </div>
-        </div>
+    </div>-->
         <div id="bottom-content">
-           <h1 class="par-title">Het Concept</h1>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et sem mauris. Vivamus nulla tortor, euismod ornare magna et, efficitur molestie lorem. Aenean tincidunt congue libero, at fringilla felis. Ut augue felis, semper a justo vitae, vulputate venenatis turpis. Ut tristique ipsum in eros mattis, et facilisis dolor sodales. Donec sed arcu ex. Nam sit amet diam id dolor semper tincidunt. Pellentesque porttitor at magna ullamcorper maximus. Fusce tristique blandit lacus, at efficitur felis ullamcorper in. Pellentesque ultricies arcu at mauris congue, in egestas diam placerat. Ut varius euismod arcu, non mattis eros fringilla in. Pellentesque lacinia odio in mi luctus cursus.</p>
-           
-           <div class="par-title other">
-              <li><a href="fotos.html">Foto's</a></li><span> |</span>
-              <li><a>Contact</a></li><span> |</span>
-              <li><a href="https://www.facebook.com/Cuba-Libre-Mechelen-154070071657308" target="_blank">
-                  <i class="fa fa-facebook" aria-hidden="true"></i></a></li><span> |</span>
+         <div class="test">
+          <div class="col-md-4">
+              <h2 class="gallery-header">28 mei 2016</h2>
+              
+              
+          </div>
+           <div class="col-md-4">
+              <h2 class="gallery-header">24 juni 2016</h2>
+              
+              
+          </div>
+        </div>   
+       <div class="par-title other">
+              <li>Foto's</li><span> |</span>
+              <li>Contact</li><span> |</span>
+              <li><i class="fa fa-facebook" aria-hidden="true"></i></li><span> |</span>
               <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
            </div>
-        </div>
     </div>
 
     <!-- jQuery first, then Bootstrap JS. -->
@@ -91,7 +103,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
     <script src="js/jquery.backstretch.min.js"></script>
     <script>
-        $('#content').backstretch([
+        $("#content").backstretch([
       "img/sfeerbeeld.jpg",
       "img/CubaLibre.jpg",
       ], {

@@ -3,6 +3,9 @@
   src: url('https://nicopelsmaekers.github.io/fonts/BRADHITC.ttf') format('truetype'); /* Safari, Android, iOS */
       
 }
+body{
+    background-color: #F2D968;
+}
 #wrapper {
     width: 100%;
     margin: auto;
@@ -34,7 +37,15 @@
     margin: auto;
     min-height: inherit;
 }
-
+#gradientcolor {
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.3), 
+      rgba(255, 255, 255, 0.3)
+    );
+    background-size: cover;
+    min-height: 305px;
+      
+}
 
 /*Front page images lay out */
 .hovereffect {
@@ -124,15 +135,59 @@
     margin-bottom: 3%;
 }
 
-#gradientcolor {
-    background: linear-gradient(
-      rgba(255, 255, 255, 0.3), 
-      rgba(255, 255, 255, 0.3)
-    );
-    background-size: cover;
-    min-height: 305px;
-      
+
+
+#content {
+    margin-bottom: 1%;
 }
+
+
+/*START bottom-content*/
+#bottom-content {
+    width: 90%;
+    margin: auto;
+}
+#bottom-content p {
+    text-align: justify;
+}
+.other{
+    clear: both;
+}
+
+.other li{
+    display: inline;
+    margin:auto 0.5% auto auto; 
+    font-size: 90%;
+    letter-spacing: normal;
+ }
+.other li a{
+    color: inherit;
+    text-decoration: none;
+    
+}
+.other span{
+    vertical-align: middle;    
+}
+
+.other li i{
+    vertical-align: middle;
+}
+/*END bottom content*/
+#topwrapper ul li{
+    text-decoration: none;
+    display: inline-block;     
+ }
+#topwrapper ul li i{    
+    vertical-align: middle;
+}
+
+.social {
+    float: left;
+    font-size: 250%;
+    
+}
+
+/*Make Responsive*/
 @media(max-width:2560px){
     #gradientcolor{        
         min-height:490px;
@@ -307,47 +362,15 @@
 }
 
 
-#content {
-    margin-bottom: 1%;
+.gallery-header {
+    font-family: 'MyWebFont',monospace;       
+    text-align: center;
+    letter-spacing: 12px;   
 }
 
-
-/*START bottom-content*/
-#bottom-content {
-    width: 90%;
-    margin: auto;
-}
-#bottom-content p {
-    text-align: justify;
-}
-
-.other li{
-    display: inline;
-    margin: auto;   
- }
-.other li{
-    font-size: 90%;
-    letter-spacing: normal;
-    
-}
-.other span{
-    vertical-align: middle;
-}
-
-.other li i{
-    vertical-align: middle;
-}
-/*END bottom content*/
-#topwrapper ul li{
-    text-decoration: none;
-    display: inline-block;     
- }
-#topwrapper ul li i{    
-    vertical-align: middle;
-}
-
-.social {
-    float: left;
-    font-size: 250%;
-    
+.test {
+    width: 50%;
+    text-align: center;
+    margin:auto 0% auto 0%;
+    display: block;
 }
