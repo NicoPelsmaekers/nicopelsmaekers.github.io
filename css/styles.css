@@ -146,6 +146,7 @@
     width: 90%;
     margin: auto;
 }
+
 #bottom-content p {
     text-align: justify;
 }
@@ -361,15 +362,4 @@
 }
 
 
-.gallery-header {
-    font-family: 'MyWebFont',monospace;       
-    text-align: center;
-    letter-spacing: 12px;   
-}
 
-.test {
-    width: 50%;
-    text-align: center;
-    margin:auto 0% auto 0%;
-    display: block;
-}

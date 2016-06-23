@@ -10,8 +10,9 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
     <script src="js/bootstrap.js"></script>
     <!--Stylesheet -->
-    <link rel="stylesheet" href="css/gallery/lightbox.css">
     <link rel="stylesheet" href="css/styles.css">
+     <link rel="stylesheet" href="css/fotos.css">
+     
 
     <title>Foto's | Cuba Libre Mechelen</title>
     <link rel="icon" href="img/icon/favicon.PNG" type="image/x-icon" />
@@ -24,81 +25,37 @@
 
     <div id="wrapper">
         <div id="topwrapper">
-            <div class="social hide">
-                <ul>             
-                  <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-                  <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
-                </ul>
-            </div>
             <h1 class="par-title"><strong>Cuba L<span id="CubaI">i</span>bre - Foto's</strong></h1>
             
         </div>
-      <!-- <div id="content">
-            <div id="gradientcolor">
-
-                <div id="overview">
-                    <div class="overview-img col-md-4 col-sm-6 col-xs-10 col-md-offset-0 col-sm-offset-0 col-xs-offset-2 ">
-                        <div class="hovereffect">
-                            <img class="img-responsive" src="img/Quote_1.png" alt="">
-                           
-                                <a href="index.html">
-                                    <div class="overlay">
-                                       <h2>Home</h2>
-                                    </div>
-                                </a>
-                           
-                        </div>
-                    </div>
-                    <div class="overview-img col-md-4 col-sm-6 col-xs-10 col-md-offset-0 col-sm-offset-0 col-xs-offset-2">
-                        <div class="hovereffect">
-                            <img class="img-responsive" src="img/Quote_2_1.jpg" alt="">
-                            <a href="cocktailtruck.html">
-                                    <div class="overlay">
-                                       <h2>Cocktail Truck</h2>
-                                    </div>
-                                </a>
-                        </div>
-                    </div>
-                    
-                    <div class="overview-img col-md-4 col-sm-6 col-xs-10 col-md-offset-0 col-sm-offset-0 col-xs-offset-2">
-                        <div class="hovereffect">
-                            <img class="img-responsive" src="img/Quote_3_1.jpg" alt="">
-                            <a href="evenementen.html">
-                                    <div class="overlay">
-                                       <h2>Evenementen</h2>
-                                    </div>
-                                </a>
-                        </div>
-                    </div>
-
-
-
-                </div>
-
-
-            </div>
-    </div>-->
-        <div id="bottom-content">
-         
-          <div class="col-md-4">
-              <h2 class="gallery-header">28 mei 2016</h2>
-                 <a href="img/CubaLibre.jpg" data-lightbox="roadtrip"><img src="img/icon/favicon.PNG" alt=""></a>
-                 <a href="img/sfeerbeeld.jpg" data-lightbox="roadtrip" style="display:none">Image #3</a>
-                 <a href="img/Quote_2.jpg" data-lightbox="roadtrip">Image #4</a>
-              
+      <div id="content">
+         <div id="gradientcolor">
+          <div class="col-md-6 editionimg">
+              <h2 class="gallery-header">28 mei 2016</h2> 
+               
+               
+                <a href="edities/vijfhoek.html">
+                    <img src="img/28052016-VijfhoekMechelen/1.jpg" alt="">
+                </a>
+                
+                 
           </div>
-           <div class="col-md-4">
+           <div class="col-md-6 editionimg" >
               <h2 class="gallery-header">24 juni 2016</h2>
-             
+                   <a href="edities/stadhuis.html">
+                    <img src="img/28052016-VijfhoekMechelen/27.jpg" alt="">
+                </a>
           </div>
+          </div>
+    </div>
+        
            
        <div class="par-title other">
-              <li>Foto's</li><span> |</span>
+              <li><a href="index.html">Home</a></li><span> |</span>
               <li>Contact</li><span> |</span>
               <li><i class="fa fa-facebook" aria-hidden="true"></i></li><span> |</span>
               <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
            </div>
-    </div>
     </div>
     
     <!-- jQuery first, then Bootstrap JS. -->
@@ -107,8 +64,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
     <script src="js/jquery.backstretch.min.js"></script>
-    <script>
-        $("#content").backstretch([
+   <script>
+        $('#content').backstretch([
       "img/sfeerbeeld.jpg",
       "img/CubaLibre.jpg",
       ], {
@@ -116,7 +73,6 @@
             duration: 4000
         });
     </script>
-    <script src="js/gallery/lightbox.js"></script>
 </body>
 
 </html>
