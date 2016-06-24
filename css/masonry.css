@@ -1,11 +1,8 @@
-* { box-sizing: border-box; }
-
-body { font-family: sans-serif; }
-
 /* ---- grid ---- */
 
 .grid {
-  margin: auto;
+    margin: auto;
+    display: block;
 }
 
 /* clearfix */
@@ -23,12 +20,11 @@ body { font-family: sans-serif; }
 }
 
 .grid-item {
-  height: auto;   
-  float: left; 
+  height: auto;
 
 }
 .grid-item img{
-    margin-top: 1%;
-    margin-bottom: 1%;
+    width: 100%;
+    padding:1%;
 }
 
