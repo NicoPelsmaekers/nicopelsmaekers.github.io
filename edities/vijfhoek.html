@@ -75,42 +75,6 @@
                 <div class="grid-item">
                     <a href="/img/28052016-VijfhoekMechelen/14.jpg" data-lightbox="roadtrip"><img class="album" src="/img/28052016-VijfhoekMechelen/14.jpg" alt=""></a>
                 </div>
-
-
-            <!--<h1>Masonry - fluid columnWidth</h1>
-
-            <div class="grid">
-                <div class="grid-sizer"></div>
-                <div class="grid-item"  >
-                  
-                </div>
-                <div class="grid-item grid-item--width2 grid-item--height2"></div>
-                <div class="grid-item grid-item--height3"></div>
-                <div class="grid-item grid-item--height2"></div>
-                <div class="grid-item grid-item--width3"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item grid-item--height2"></div>
-                <div class="grid-item grid-item--width2 grid-item--height3"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item grid-item--height2"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item grid-item--width2 grid-item--height2"></div>
-                <div class="grid-item grid-item--width2"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item grid-item--height2"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item grid-item--height3"></div>
-                <div class="grid-item grid-item--height2"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item"></div>
-                <div class="grid-item grid-item--height2"></div>
-            </div>
-
-
--->
-
         </div>
 
 
@@ -130,15 +94,22 @@
     <script src="../js/bootstrap.js"></script>
     <script src="../js/gallery/lightbox.js"></script>
     <script src="../js/masonry.pkgd.min.js"></script>
+    <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.js"></script>
 
     <script>
         // external js: masonry.pkgd.js
 
-        $('.grid').masonry({
+        var $grid = $('.grid').masonry({
             itemSelector: '.grid-item',
             columnWidth: '.grid-sizer',
             percentPosition: true
         });
+
+        // layout Masonry after each image loads
+        $grid.imagesLoaded().progress( function() {
+          $grid.masonry('layout');
+        });
+        
     </script>
 
 
