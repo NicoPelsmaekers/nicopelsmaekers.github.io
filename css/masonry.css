@@ -1,7 +1,7 @@
 /* ---- grid ---- */
 
 .grid {
-    margin: auto;
+    margin: 0% 6% 0% 6%;
     display: block;
 }
 
@@ -16,7 +16,7 @@
 
 .grid-sizer,
 .grid-item {
-  width: 14%;
+  width: 100%;
 }
 
 .grid-item {
