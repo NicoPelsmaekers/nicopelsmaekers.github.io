@@ -2,7 +2,15 @@
 .gallery-header {
     font-family: 'MyWebFont',monospace;       
     text-align: center;
-    letter-spacing: 12px;   
+    letter-spacing: 12px; 
+    color: white;
+    
+}
+.gallery-subheader {
+    font-family: 'MyWebFont',monospace;       
+    text-align: center;
+    color: white;
+    
 }
 #content img{
     width: 50%;
@@ -14,11 +22,11 @@
 }
 #gradientcolor {
     background: linear-gradient(
-      rgba(255, 255, 255, 0.7), 
-      rgba(255, 255, 255, 0.7)
+      rgba(255, 255, 255, 0.3), 
+      rgba(255, 255, 255, 0.3)
     );
     background-size: cover;
-    min-height: 305px;
+    min-height: 325px;
 }
 
 .content{
