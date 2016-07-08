@@ -28,7 +28,15 @@
     background-size: cover;
     min-height: 325px;
 }
-
+@media(max-width:1920px){
+    #gradientcolor{        
+        min-height:440px;
+    }
+    .editionimg{
+        padding-top: 1%;
+    }
+    
+}
 .content{
     width: 90%;
 }

@@ -173,19 +173,24 @@
     vertical-align: middle;
 }
 /*END bottom content*/
-#topwrapper ul li{
-    text-decoration: none;
-    display: inline-block;     
- }
-#topwrapper ul li i{    
-    vertical-align: middle;
+
+.par-footer {
+    font-family: 'MyWebFont',monospace;
+    font-size: 300%;
+    text-align: center;
+    letter-spacing: 12px;
+}
+.par-footer .dropup{
+    display: inline;
+    cursor: pointer;
 }
 
-.social {
-    float: left;
-    font-size: 250%;
-    
+
+.dropdown-menu li{
+    font-size: 120%;
+    text-align: center;
 }
+
 
 /*Make Responsive*/
 @media(max-width:2560px){
@@ -213,6 +218,7 @@
         margin:4% 2% 0% 0%;
         
     }
+   
     .hovereffect{
         width: 90%;
         margin-left: 16%;
@@ -280,11 +286,12 @@
 @media(max-width:768px){
     .overview-img{
         width: 60%;
-        margin-left: 20%
+        margin-left: 17%;
     }
     #gradientcolor{        
-        min-height:950px;
+        min-height:880px;
     }
+  
 }
 
 @media(max-width:600px){    
@@ -320,6 +327,11 @@
         display: none;
 
     }
+    .other span.caret{
+        vertical-align: middle;
+        display: inline-block;
+
+    }
     .otherli i{
         vertical-align: middle;
     }
@@ -327,12 +339,12 @@
 /*Nexus 6P*/
 @media(max-width:435px){    
     #gradientcolor{        
-        min-height:665px;
+        min-height:600px;
     }
     .overview-img{
         width: 80%;
         height: 80%;
-        margin-left: 10%;
+        margin-left: 6%;
         margin-top: 4.4%;
     }
 }
@@ -344,7 +356,7 @@
     .overview-img{
         width: 80%;
         height: 80%;
-        margin-left: 10%;
+        margin-left: 6%;
         margin-top: 6%;
     }
 }
@@ -356,27 +368,8 @@
     .overview-img{
         width: 80%;
         height: 80%;
-        margin-left: 10%;
+        margin-left: 6%;
         margin-top: 4.4%;
     }
 }
 
-
-
-
-.par-footer {
-    font-family: 'MyWebFont',monospace;
-    font-size: 300%;
-    text-align: center;
-    letter-spacing: 12px;
-}
-.par-footer .dropup{
-    display: inline;
-    cursor: pointer;
-}
-
-
-.dropdown-menu li{
-    font-size: 120%;
-    text-align: center;
-}
