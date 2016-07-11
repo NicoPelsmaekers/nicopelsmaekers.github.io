@@ -7,6 +7,7 @@
     margin-left:8%;
     width:20%;
 }
+
     .timeline:before {
         top: 0;
         bottom: 0;
@@ -148,6 +149,9 @@
     .timeline-body > p + p {
         margin-top: 5px;
     }
+.timeline-body p{
+    margin-bottom: 2%;
+}
 
 @media (max-width: 767px) {
     ul.timeline:before {
