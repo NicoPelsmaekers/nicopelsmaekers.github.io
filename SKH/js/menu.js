@@ -19,3 +19,7 @@ $(function() {
     }
   });
 });
+
+$('#mobile').find('a').on('click', function(e){
+          $('.navbar-toggle').trigger('click');
+    });
