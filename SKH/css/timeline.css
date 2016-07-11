@@ -153,6 +153,16 @@
     margin-bottom: 2%;
 }
 
+.timeline-body .bfl{
+    margin-left: 10%;
+}
+.timeline-body .sliqslim{
+    margin-left: 34%;
+}
+.timeline-body .nomiz{
+    margin-left: 22%;
+}
+
 @media (max-width: 767px) {
     ul.timeline:before {
         left: 40px;

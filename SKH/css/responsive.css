@@ -1,0 +1,23 @@
+@media(max-width:1366px) {
+    .introimg img {
+        width: 80%;
+        margin: 15% auto auto 10%;
+    }
+    .timeline li img {
+        margin-left: 10%;
+        width: 30%;
+    }
+    .timeline-body .bfl {
+        margin-left: 7%;
+    }
+    .timeline-body .sliqslim {
+        margin-left: 33%;
+    }
+    .timeline-body .nomiz {
+        margin-left: 19%;
+    }
+    .vrijdagimg img {
+        width: 100%;
+        margin: 25% auto auto 10%;
+    }
+}
