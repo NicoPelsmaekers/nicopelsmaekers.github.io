@@ -156,11 +156,20 @@
 .timeline-body .bfl{
     margin-left: 10%;
 }
+.timeline-body .bfl img{
+    width:15%;
+}
 .timeline-body .sliqslim{
     margin-left: 34%;
 }
+.timeline-body .sliqslim img{
+    width:15%;
+}
 .timeline-body .nomiz{
     margin-left: 22%;
+}
+.timeline-body .nomiz img{
+    width:15%;
 }
 
 @media (max-width: 767px) {
