@@ -22,7 +22,10 @@
     }
 }
 @media(max-width:1024px) {
-  
+  .introimg img {
+        width: 100%;
+        margin: 60% auto auto 10%;
+    }
     .vrijdagtext{
         width: 100%;
         float: none;
@@ -31,9 +34,51 @@
         float: none;
         margin: auto;
     }
-    .introimg img {
+    .vrijdagimg img {
         width: 100%;
-        margin: 60% auto auto 10%;
+        margin: 25% auto auto 10%;
+    }
+    .zaterdagtext{
+        width: 100%;
+        float: none;
+    }
+    .zaterdagimg{
+        float: none;
+        margin: auto;
+    }
+      .zaterdagtext1{
+        width: 100%;
+        float: none;
+    }
+    .zaterdagimg1{
+        float: none;
+        margin: auto;
+    }
+    .zaterdagtext2{
+        width: 100%;
+        float: none;
+    }
+    .zaterdagimg2{
+        float: none;
+        margin: auto;
+    }
+    
+    
+    .zondagtext{
+        width: 100%;
+        float: none;
+    }
+    .zondagimg{
+        float: none;
+        margin: auto;
+    }
+      .zondagtext1{
+        width: 100%;
+        float: none;
+    }
+    .zondagimg1{
+        float: none;
+        margin: auto;
     }
     .timeline li img {
         margin-left: 10%;
@@ -57,12 +102,10 @@
     .timeline-body .nomiz img{
         width:20%;
     }
-    .vrijdagimg img {
-        width: 100%;
-        margin: 25% auto auto 10%;
-    }
+    
 }
 @media(max-width:414px) {
+   
     .introtext{
         float: none;
         width: 100%;
