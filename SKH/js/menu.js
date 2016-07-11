@@ -12,7 +12,7 @@ $(function() {
         
         if (target.selector!='#topcontent') {
         $('html, body').animate({
-          scrollTop: target.offset().top
+          scrollTop: target.offset().top -100
         }, 1000);
         return false;
       }
