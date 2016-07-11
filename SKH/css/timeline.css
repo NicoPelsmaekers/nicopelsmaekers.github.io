@@ -3,14 +3,17 @@
     padding: 20px 0 20px;
     position: relative;
 }
-
+.timeline li img{
+    margin-left:8%;
+    width:20%;
+}
     .timeline:before {
         top: 0;
         bottom: 0;
         position: absolute;
         content: " ";
         width: 3px;
-        background-color: #eeeeee;
+        background-color:#7b56a4; /*#eeeeee*/
         left: 50%;
         margin-left: -1.5px;
     }

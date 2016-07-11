@@ -11,7 +11,7 @@ body {
     margin-top: 70px;
     /* Tekst opmaak */
     text-align: justify;
-   /* background: linear-gradient(to top right, #ffffff, #7b56a4);*/
+    /*background: linear-gradient(to top right, #ffffff, #7b56a4);*/
 }
 a{
     color: white;
@@ -19,6 +19,7 @@ a{
 
 h1{
     font-family: 'Muli', sans-serif;
+    /*font-weight: bold;*/
 }
 
 /*outline button*/
@@ -30,7 +31,7 @@ h1{
 
 .btn-primary.btn-outline {
     color: #428bca;
-    border-color: #428bca
+    border-color: #428bca;
     
 }
 .btn-primary.btn-outline:hover{
@@ -146,6 +147,24 @@ h1{
     width: 80%;
      margin:5% auto auto 10%;    
 }
+
+.zaterdagtext2 {
+    clear: both;
+    float: right;
+    width: 50%;
+    margin: auto;
+}
+
+.zaterdagimg2 {
+    float: left;
+    width: 50%;
+    
+}
+
+.zaterdagimg2 img{
+    width: 80%;
+     margin:5% auto auto 10%;    
+}
 /* ZONDAG */
 .zondag {
     clear: both;
@@ -155,13 +174,13 @@ h1{
     
 }
 .zondagtext {
-    float: right;
+    float: left;
     width: 50%;
     margin: auto;
 }
 
 .zondagimg {
-    float: left;
+    float: right;
     width: 50%;
     
 }
@@ -172,12 +191,12 @@ h1{
 }
 .zondagtext1 {
     clear: both;
-    float: left;
+    float: right;
     width: 50%;
 }
 
 .zondagimg1 {
-    float: right;
+    float: left;
     width: 50%;
     
 }
@@ -185,3 +204,18 @@ h1{
     width: 80%;
      margin:5% auto auto 10%;    
 }
+
+
+.goldtitle{
+    color: #b8a553;
+}
+.purpletitle{
+    color: #7b56a4;
+}
+
+
+.footer {
+    clear: both;
+}
+
+
