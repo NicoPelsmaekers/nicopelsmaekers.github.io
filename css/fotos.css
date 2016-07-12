@@ -37,6 +37,17 @@
     }
     
 }
+@media(max-width:1366px){
+    #gradientcolor{
+        min-height: 360px;
+    }
+}
+@media(max-width:1024px){
+    #gradientcolor{
+        min-height: 290px;
+    }
+}
+
 .content{
     width: 90%;
 }
