@@ -2,27 +2,32 @@
 
 
 /* Default Content */
-body, html{
+
+body,
+html {
     width: 100%;
 }
 
-body { 
+body {
     /* Opmaak */
     margin-top: 70px;
     /* Tekst opmaak */
     text-align: justify;
     /*background: linear-gradient(to top right, #ffffff, #7b56a4);*/
 }
-a{
+
+a {
     color: white;
 }
 
-h1{
+h1 {
     font-family: 'Muli', sans-serif;
     /*font-weight: bold;*/
 }
 
+
 /*outline button*/
+
 .btn-outline {
     background-color: transparent;
     color: inherit;
@@ -30,13 +35,13 @@ h1{
 }
 
 .btn-primary.btn-outline {
-    color: #428bca;
-    border-color: #428bca;
-    
+    color: #7b56a4;
+    border-color: #7b56a4;
 }
-.btn-primary.btn-outline:hover{
-    background-color: #428bca;
-    border-color: #428bca;
+
+.btn-primary.btn-outline:hover {
+    background-color: #7b56a4;
+    border-color: #7b56a4;
 }
 
 .btn-success.btn-outline {
@@ -61,10 +66,11 @@ h1{
 .btn-warning.btn-outline:hover,
 .btn-danger.btn-outline:hover {
     color: #fff;
-    
 }
 
+
 /* inschrijving */
+
 #submit {
     float: right;
 }
@@ -72,31 +78,36 @@ h1{
 .modal-body {
     margin-bottom: 3%;
 }
+
+
 /* INTRO */
+
 .introtext {
     float: left;
     width: 70%;
-    
 }
+
 .introimg {
     float: right;
     width: 30%;
     margin: auto;
 }
-.introimg img{
+
+.introimg img {
     width: 80%;
-    margin:5% auto auto 10%;    
+    margin: 5% auto auto 10%;
 }
 
 #programma {
     clear: both;
 }
+
+
 /* VRIJDAG*/
 
 .vrijdagtext {
     float: left;
     width: 50%;
-    
 }
 
 .vrijdagimg {
@@ -104,18 +115,23 @@ h1{
     width: 50%;
     margin: auto;
 }
-.vrijdagimg img{
+
+.vrijdagimg img {
     width: 80%;
-    margin:5% auto auto 10%;    
+    margin: 5% auto auto 10%;
 }
+
+
 /* ZATERDAG */
+
 .zaterdag {
     clear: both;
 }
-.zaterdag .titel{
+
+.zaterdag .titel {
     padding-top: 10px;
-    
 }
+
 .zaterdagtext {
     float: right;
     width: 50%;
@@ -125,13 +141,13 @@ h1{
 .zaterdagimg {
     float: left;
     width: 50%;
-    
 }
 
-.zaterdagimg img{
+.zaterdagimg img {
     width: 80%;
-     margin:5% auto auto 10%;    
+    margin: 5% auto auto 10%;
 }
+
 .zaterdagtext1 {
     clear: both;
     float: left;
@@ -141,11 +157,11 @@ h1{
 .zaterdagimg1 {
     float: right;
     width: 50%;
-    
 }
-.zaterdagimg1 img{
+
+.zaterdagimg1 img {
     width: 80%;
-     margin:5% auto auto 10%;    
+    margin: 5% auto auto 10%;
 }
 
 .zaterdagtext2 {
@@ -158,21 +174,24 @@ h1{
 .zaterdagimg2 {
     float: left;
     width: 50%;
-    
 }
 
-.zaterdagimg2 img{
+.zaterdagimg2 img {
     width: 80%;
-     margin:5% auto auto 10%;    
+    margin: 5% auto auto 10%;
 }
+
+
 /* ZONDAG */
+
 .zondag {
     clear: both;
 }
-.zondag .titel{
+
+.zondag .titel {
     padding-top: 10px;
-    
 }
+
 .zondagtext {
     float: left;
     width: 50%;
@@ -182,13 +201,13 @@ h1{
 .zondagimg {
     float: right;
     width: 50%;
-    
 }
 
-.zondagimg img{
+.zondagimg img {
     width: 80%;
-     margin:5% auto auto 10%;    
+    margin: 5% auto auto 10%;
 }
+
 .zondagtext1 {
     clear: both;
     float: right;
@@ -198,24 +217,25 @@ h1{
 .zondagimg1 {
     float: left;
     width: 50%;
-    
 }
-.zondagimg1 img{
+
+.zondagimg1 img {
     width: 80%;
-     margin:5% auto auto 10%;    
+    margin: 5% auto auto 10%;
 }
 
-
-.goldtitle{
+.goldtitle {
     color: #b8a553;
 }
-.purpletitle{
+
+.purpletitle {
     color: #7b56a4;
 }
 
-
 .footer {
     clear: both;
+    background-color: #7b56a4;
+    color: #fff;
+    min-height: 70px;
+    padding-top: 1.3%;
 }
-
-
