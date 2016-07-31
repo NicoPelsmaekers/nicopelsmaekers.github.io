@@ -518,6 +518,7 @@ th {
 }
 .glyphicon-forward:before {
   content: "\e075";
+    
 }
 .glyphicon-fast-forward:before {
   content: "\e076";

@@ -141,11 +141,13 @@ h1 {
 .zaterdagimg {
     float: left;
     width: 50%;
+    
 }
 
 .zaterdagimg img {
-    width: 80%;
-    margin: 5% auto auto 10%;
+    width: 30%;
+    margin: 0% auto auto 35%;
+    
 }
 
 .zaterdagtext1 {
@@ -160,8 +162,8 @@ h1 {
 }
 
 .zaterdagimg1 img {
-    width: 80%;
-    margin: 5% auto auto 10%;
+    width: 40%;
+    margin: 5% auto auto 35%;
 }
 
 .zaterdagtext2 {
@@ -239,3 +241,13 @@ h1 {
     min-height: 70px;
     padding-top: 1.3%;
 }
+.glyphicon-forward {
+    padding-left:10%;
+    
+}
+
+.glyphicon-stop {
+    margin-left: -5%;
+}
+
+
