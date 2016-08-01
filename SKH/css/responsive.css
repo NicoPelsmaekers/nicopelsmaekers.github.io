@@ -1,7 +1,7 @@
 @media(max-width:1366px) {
     .introimg img {
-        width: 80%;
-        margin: 15% auto auto 10%;
+        width: 70%;
+        margin: 15% auto 5% 10%;
     }
     .timeline li img {
         margin-left: 10%;
@@ -20,6 +20,13 @@
         width: 100%;
         margin: 25% auto auto 10%;
     }
+    .zaterdagimg1 img{
+        margin: 5% auto auto 30%;
+    }
+    
+     .zondagimg1 img{
+        margin: 35% auto auto 5%;
+    }
     .footer{
         padding-top: 1.75%;
     }
@@ -27,8 +34,8 @@
 
 @media(max-width:1024px) {
     .introimg img {
-        width: 100%;
-        margin: 30% auto auto 10%;
+        width: 90%;
+        margin: 20% auto 5% 10%;
     }
     .vrijdagtext {
         width: 100%;
@@ -42,6 +49,7 @@
         width: 100%;
         margin: 25% auto auto 10%;
     }
+    
     .zaterdagtext {
         width: 100%;
         float: none;
@@ -50,12 +58,21 @@
         float: none;
         margin: auto;
     }
+     .zaterdagimg img {
+        width: 50%;
+        margin: auto;
+    }
     .zaterdagtext1 {
         width: 100%;
         float: none;
     }
     .zaterdagimg1 {
         float: none;
+        margin: auto;
+    }
+    
+     .zaterdagimg1 img {
+        width: 50%;
         margin: auto;
     }
     .zaterdagtext2 {
@@ -74,6 +91,10 @@
         float: none;
         margin: auto;
     }
+     .zondagimg img {
+        width: 80%;
+        margin: auto;
+    }
     .zondagtext1 {
         width: 100%;
         float: none;
@@ -81,6 +102,10 @@
     .zondagimg1 {
         float: none;
         margin: auto;
+    }
+    .zondagimg1 img {
+        width: 100%;
+        margin: auto auto 5% auto;
     }
     .timeline li img {
         margin-left: 10%;
@@ -93,7 +118,7 @@
         width: 20%;
     }
     .timeline-body .sliqslim {
-        margin-left: 33%;
+        margin-left: 30%;
     }
     .timeline-body .sliqslim img {
         width: 20%;
@@ -104,14 +129,77 @@
     .timeline-body .nomiz img {
         width: 20%;
     }
+    
+    .footer{
+        padding-top: 2.2%;
+    }
 }
 
 @media(max-width:768px){
+    .introtext{
+        float: none;
+        width: 100%
+    }
     .introtext h1{
         text-align: left;
     }
+    .introimg {
+        float: none;
+        
+    }
+    .introimg img {
+        width: 100%;
+        margin: 50% auto auto 10%;
+    }
+    
+    .vrijdagimg{
+      display: none;
+    }
+     .footer{
+        padding-top: 3%;
+    }
 }
+@media(max-width:435px){
+     .timeline li img {
+        margin-left: 40%;
+        margin-top: 5%;
+        width: 40%;
+    }
+      .timeline-body .bfl {
+        margin-left: 0%;
+    }
+    .timeline-body .bfl img {
+        width: 20%;
+        display: inline;
+        margin-left: 10%;
+    }
+    .timeline-body .sliqslim {
+        margin-left: 0%;
+    }
+    .timeline-body .sliqslim img {
+        width: 20%;
+    }
+    .timeline-body .nomiz {
+        margin-left: 0%;
+    }
+    .timeline-body .nomiz img {
+        width: 20%;
+        display: inline;
+        margin-left: 20%;
+    }
+    .zondagimg1 img{
+        display: none;
+    }
+     .footer{
+        padding-top: 5.5%;
+    }
+}
+
 @media(max-width:414px) {
+    
+    .purpletitle{
+        text-align: left;
+    }
     .introtext {
         float: none;
         width: 100%;
@@ -131,9 +219,15 @@
     .vrijdagimg {
         display: none;
     }
+    
     .timeline li img {
         margin-left: 40%;
+        margin-top: 5%;
         width: 40%;
+    }
+    
+    .timeline-title {
+        text-align:left;
     }
     .timeline-body .bfl {
         margin-left: 0%;
@@ -157,8 +251,28 @@
         display: inline;
         margin-left: 20%;
     }
-    .vrijdagimg img {
+    .zaterdagimg img {
         width: 100%;
         margin: 25% auto auto 10%;
+    }
+     .zaterdagimg1 img {
+        width: 100%;
+        margin: 25% auto auto 10%;
+    }
+     .zondagimg img {
+        width: 100%;
+        margin: 25% auto auto 10%;
+    }
+      .zondagimg1 img {
+        width: 100%;
+        margin: 25% auto 5% 10%;
+    }
+     .footer{
+        padding-top: 6%;
+    }
+}
+@media(max-width:320px){
+     .footer{
+        padding-top: 4.5%;
     }
 }
