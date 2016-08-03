@@ -25,8 +25,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/calculate.betaling.js"></script>
-
+    
     <title>75 jaar SK Heffen</title>
     <link rel="icon" href="img/icon/favicon.png" type="image/x-icon" />
 
@@ -183,8 +182,8 @@
             <div id="zondag" class="zondag">
                 <h1 class="text-center titel goldtitle">Zondag 11 september 2016</h1>
                 <div class="zondagtext">
-                    <h1 id=ontbijt class="purpletitle">Uitgebreid ontbijt | vanaf 09u00</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia, mauris sed eleifend rhoncus, sapien arcu lacinia turpis, auctor ornare sapien tortor eu dolor. Nulla vitae purus sit amet augue aliquet efficitur tristique vitae justo. Quisque ut massa eu velit venenatis ullamcorper. Duis lacinia sapien odio, et semper turpis fermentum non. Aliquam mollis mauris sit amet lacus fermentum euismod. Aliquam vitae lectus non lacus euismod viverra. </p>
+                    <h1 id=ontbijt class="purpletitle">Luxueus ontbijt | vanaf 09u00</h1>
+                    <p>Er wordt een onbijt voorzien, uiteraard met de mogelijkheid om een glaasje cava te drinken. Verder worden ook de klassieke dranken zoals fruitsap, koffie &amp; thee voorzien. Het eten bestaat uit een ruim assortiment, gaande van een koffiekoek tot een sneedje kaas of hesp. Een vers gemaakte omelet, een hard of zacht gekookt ei zijn op vraag verkrijgbaar.</p>
                     <div>
                         <button type="button" class="btn btn-primary btn-outline" data-toggle="modal" data-target="#myModal">Inschrijven</button>
                         <!-- Modal -->
@@ -205,7 +204,19 @@
                                                 <br> i.v.m. betaling en verdere details.
                                             </div>
                                             <div id="form-content">
+                                               <div class="group">
+                                                    <label for="name">Inschrijvingsnaam</label>
+                                                    <div>
+                                                        <input id="name" name="name" class="form-control" type="text" placeholder="Voornaam Familienaam">
+                                                    </div>
+                                                </div>
                                                 <div class="group">
+                                                    <label for="email">Email</label>
+                                                    <div>
+                                                        <input id="email" name="email" class="form-control" type="email" placeholder="Email">
+                                                    </div>
+                                                </div>
+                                                <div class="group ">
                                                     <label for="adults">Aantal Volwassenen</label>
                                                     <div>
                                                         <select id="adults" name="adults" class="form-control" onchange="calc()">
@@ -223,7 +234,7 @@
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <div class="group">
+                                                <div class="group ">
                                                     <label for="children">Aantal Kinderen</label>
                                                     <div>
                                                         <select id="children" name="children" class="form-control" onchange="calc()">
@@ -241,19 +252,8 @@
                                                         </select>
                                                     </div>
                                                 </div>
-                                                <div class="group">
-                                                    <label for="name">Inschrijvingsnaam</label>
-                                                    <div>
-                                                        <input id="name" name="name" class="form-control" type="text" placeholder="Voornaam Familienaam">
-                                                    </div>
-                                                </div>
-                                                <div class="group">
-                                                    <label for="email">Email</label>
-                                                    <div>
-                                                        <input id="email" name="email" class="form-control" type="email" placeholder="Email">
-                                                    </div>
-                                                </div>
-                                                <div class="group">
+                                                
+                                                <div id="overig" class="group">
                                                     <label for="special-requirements">Overig</label>
                                                     <div>
                                                         <textarea id="special-requirements" name="special-requirements" class="form-control" cols="" rows="5" placeholder=""></textarea>
@@ -334,6 +334,8 @@
     <script src="js/menu.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/calculate.betaling.js"></script>
+
 </body>
 
 </html>
