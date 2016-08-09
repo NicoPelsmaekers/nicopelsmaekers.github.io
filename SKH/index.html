@@ -12,7 +12,7 @@
     Voetbal
     feest
     75 jaar
-    75 jaar heffen">
+    75 jaar heffen"> 
 
     <meta name="description" content="SK Heffen wordt 75 jaar en viert zijn jubilieumjaar met een groot feest. Dit gaat van een jongerenfuif tot een Bal Populair voor de ouderen. Verder worden er ook een aantal matchen voorzien.">
     <meta charset=utf-8>
@@ -74,6 +74,91 @@
             <div class="introtext">
                 <h1 class="goldtitle">75 jaar SK Heffen, een feest!</h1>
                 <p>Om het 75 jarig bestaan van onze club te vieren, organiseren we een feestweekend! Dit zal doorgaan op 9, 10 &amp; 11 september. Vrijdag 9 september is er een fuif voorzien met enkele grote namen zoals DJ BFL, Sliq &amp; Slim en Nomiz. Zaterdag wordt er een receptie voorzien voor spelers, oud spelers, trainers, bestuur, sponsors en supporters. Nadien volgt er nog een Bal Populaire. Zondag beginnen we de dag met een luxueus ontbijt. Inschrijven is hiervoor verplicht! Doorheen de dag is er sport, spel en animatie voorzien. Vanaf 14u is er ook spaghetti te verkrijgen. Om de dag compleet te maken speelt ons eerste elftal om 15u een galawedstrijd tegen FC Blaasveld. </p>
+            </div>
+        </div>
+        <div class="hefferke">
+            <div class="etiket">
+                <img class="img-responsive" src="img/etiket.png" alt="etiket van het Hefferke">
+               
+            </div>
+             <div class="glas">
+                <img class="img-responsive" src="img/Hefferke.png" alt="glas van het Hefferke">
+               
+            </div>
+            <div class="glastekst">
+                <h1 class="goldtitle">Hefferke Tripel Hop</h1>
+                <p>Het Hefferke is een blond bier van hoge gisting met hergisting op de fles. Ongepasteuriseerd en ongefilterd natuurbier met fijn aroma en een subtiele hoppigheid door het gebruik van drie soorten hop: Challenger, Target &amp; Hallertau. </p>
+                <p>Het HEFFERKE is te proeven, te bestellen en mee te nemen in onze beide kantines. De prijs voor 1 fles is €8, vanaf 3 flessen €7.5 per fles, vanaf 6 Flessen €7 per stuk.</p>
+                 <div id="bierdiv">
+                        <button type="button" class="btn btn-primary btn-outline" data-toggle="modal" data-target="#bier">Bestel hier </button> of telefonisch: +32 470 30 60 31
+                        <!-- Modal -->
+                        <div class="modal fade" id="bier" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Bestelling Hefferke</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form id="booking-form" class="booking-form" name="form1" method="post" action="bier.php">
+                                            <div id="form-message" class="message hide">
+                                                Uw bestelling is gelukt!
+                                                <br> Er is een mail naar u gestuurd,
+                                                <br> hierin vindt u verdere informatie
+                                                <br> i.v.m. betaling en verdere details.
+                                            </div>
+                                            <div id="form-content">
+                                               <div class="group">
+                                                    <label for="name">Naam</label>
+                                                    <div>
+                                                        <input id="name" name="name" class="form-control" type="text" placeholder="Voornaam Familienaam">
+                                                    </div>
+                                                </div>
+                                                <div class="group">
+                                                    <label for="email">Email</label>
+                                                    <div>
+                                                        <input id="email" name="email" class="form-control" type="email" placeholder="Email">
+                                                    </div>
+                                                </div>
+                                                <div class="group ">
+                                                    <label for="adults">Aantal Flessen</label>
+                                                    <div>
+                                                        <select id="flessen" name="flessen" class="form-control" onchange="biercalc()">
+                                                            <option value="0">0</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="5">5</option>
+                                                            <option value="6">6</option>
+                                                            <option value="7">7</option>
+                                                            <option value="8">8</option>
+                                                            <option value="9">9</option>
+                                                            <option value="10">10</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="group">
+                                                    <label for="te-betalen">Te betalen</label>
+                                                    <div>
+                                                        <textbox readonly id="paymentbier" name="te-betalen" class="col-md-4 form-control"></textbox>
+                                                    </div>
+                                                </div>
+                                                <div class="group submit">
+                                                    <label class="empty"></label>
+                                                    <div>
+                                                        <input id="submitbier" class="btn btn-success" name="submit" type="submit" value="Bestellen" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="form-loading" class="hide"><i class="fa fa-circle-o-notch fa-spin"></i></div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
             </div>
         </div>
         <div id="programma">
@@ -164,8 +249,69 @@
                     </p>
 
                     <p>
-                        Om een goede inschatting te kunnen maken van de aanwezige personen kan je dit laten weten via volgend telefoonnummer: +32 000 00 00 00 of via volgend formulier \\ "Aanwezig" //
+                        Om een goede inschatting te kunnen maken van de aanwezige personen kan je dit laten weten
                     </p>
+                     <div>
+                        <button type="button" class="btn btn-primary btn-outline" data-toggle="modal" data-target="#receptie">Bevestig hier</button> of telefonisch: +32 495 54 11 55 
+                        <!-- Modal -->
+                        <div class="modal fade" id="receptie" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Bevestigen aanwezigheid</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form id="booking-form" class="booking-form" name="form1" method="post" action="receptie.php">
+                                            <div id="form-message" class="message hide">
+                                                U aanwezigheid is bevestigd!                                                
+                                            </div>
+                                            <div id="form-content">
+                                               <div class="group">
+                                                    <label for="name">Naam</label>
+                                                    <div>
+                                                        <input id="name" name="name" class="form-control" type="text" placeholder="Voornaam Familienaam">
+                                                    </div>
+                                                </div>
+                                                <div class="group">
+                                                    <label for="email">Email</label>
+                                                    <div>
+                                                        <input id="email" name="email" class="form-control" type="email" placeholder="Email">
+                                                    </div>
+                                                </div>
+                                                <div class="group ">
+                                                    <label for="adults">Aantal</label>
+                                                    <div>
+                                                        <select id="adults" name="adults" class="form-control">
+                                                            <option value="0">0</option>
+                                                            <option value="1">1</option>
+                                                            <option value="2">2</option>
+                                                            <option value="3">3</option>
+                                                            <option value="4">4</option>
+                                                            <option value="5">5</option>
+                                                            <option value="6">6</option>
+                                                            <option value="7">7</option>
+                                                            <option value="8">8</option>
+                                                            <option value="9">9</option>
+                                                            <option value="10">10</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="group submit">
+                                                    <label class="empty"></label>
+                                                    <div>
+                                                        <input id="submit" class="btn btn-success" name="submit" type="submit" value="Schrijf me in!" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="form-loading" class="hide"><i class="fa fa-circle-o-notch fa-spin"></i></div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="zaterdagimg">
                     <img class="img-responsive cava" src="img/cava.jpg" alt="">
@@ -173,7 +319,7 @@
                 <div class="zaterdagtext1">
                     <h1 class="purpletitle">Bal Populaire | 21u00</h1>
                     <h4 class="goldtitle">Gratis inkom </h4>
-                    <p>Eerst is er een optreden van B.E.E.B, een covergroep uit het naburige Leest. Zij brengen ambiance met veel interactie met het publiek. Daarna speelt DJ Chris de zaal plat tot in de vroege uurtjes.</p>
+                    <p>Eerst is er een optreden van B.E.E.B, een covergroep uit het naburige Leest. Zij brengen ambiance met veel interactie met het publiek. B.E.E.B zingt rock, blues, tal van meezingers, pop, levensliederen en als het publiek meewil ook bisnummers. Daarna speelt DJ Chris de zaal plat tot in de vroege uurtjes.</p>
                 </div>
                 <div class="zaterdagimg1">
                     <img class="img-responsive" src="img/BEEB.jpg" alt="">
@@ -182,10 +328,10 @@
             <div id="zondag" class="zondag">
                 <h1 class="text-center titel goldtitle">Zondag 11 september 2016</h1>
                 <div class="zondagtext">
-                    <h1 id=ontbijt class="purpletitle">Luxueus ontbijt | vanaf 09u00</h1>
-                    <p>Er wordt een onbijt voorzien, uiteraard met de mogelijkheid om een glaasje cava te drinken. Verder worden ook de klassieke dranken zoals fruitsap, koffie &amp; thee voorzien. Het eten bestaat uit een ruim assortiment, gaande van een koffiekoek tot een sneedje kaas of hesp. Een vers gemaakte omelet, een hard of zacht gekookt ei zijn op vraag verkrijgbaar.</p>
+                    <h1 id=ontbijt class="purpletitle">Luxe ontbijtbuffet | 08u30 - 11u30</h1>
+                    <p>Er wordt een onbijtbuffet voorzien, uiteraard met de mogelijkheid om een glaasje cava te drinken. Verder worden ook de klassieke dranken zoals fruitsap, koffie &amp; thee voorzien. Het eten bestaat uit een ruim assortiment, zoals je van een buffet verwacht. Een vers gemaakte omelet, een hard of zacht gekookt ei is ook verkrijgbaar.</p>
                     <div>
-                        <button type="button" class="btn btn-primary btn-outline" data-toggle="modal" data-target="#myModal">Inschrijven</button>
+                        <button  type="button" class="btn btn-primary btn-outline" data-toggle="modal" data-target="#myModal">Inschrijven</button>
                         <!-- Modal -->
                         <div class="modal fade" id="myModal" role="dialog">
                             <div class="modal-dialog">
@@ -196,7 +342,7 @@
                                         <h4 class="modal-title">Inschrijven ontbijt</h4>
                                     </div>
                                     <div class="modal-body">
-                                        <form id="booking-form" class="booking-form" name="form1" method="post" action="">
+                                        <form id="booking-form" class="booking-form" name="form1" method="post" action="script.php">
                                             <div id="form-message" class="message hide">
                                                 U hebt succesvol ingeschreven!
                                                 <br> Er is een mail naar u gestuurd,
@@ -262,7 +408,7 @@
                                                 <div class="group">
                                                     <label for="te-betalen">Te betalen</label>
                                                     <div>
-                                                        <input readonly id="payment" name="te-betalen" class="col-md-4 form-control">
+                                                        <textbox readonly id="payment" name="te-betalen" class="col-md-4 form-control"></textbox>
                                                     </div>
                                                 </div>
                                                 <div class="group submit">
@@ -335,6 +481,7 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script src="js/calculate.betaling.js"></script>
+    <script src="js/bier.js"></script>
 
 </body>
 

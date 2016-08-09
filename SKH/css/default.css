@@ -97,6 +97,7 @@ h1 {
 
 #programma {
     clear: both;
+    
 }
 
 
@@ -267,4 +268,45 @@ h1 {
 
 .submit {
     clear: both;
+}
+
+.etiket {
+    float: left;
+    width: 30%;
+     vertical-align: middle;
+    
+}
+.etiket img{
+    width: 80%;
+    float: left;
+   margin-bottom: 5%;
+}
+
+.hefferke {
+    clear: both;
+}
+
+.glastekst {
+    float: right;
+    width: 50%;
+        
+}
+
+.glas {    
+    float: left;
+    width: 20%;
+     vertical-align: middle;
+}
+.glas img{
+    width: 62%;
+    margin-left: 5%;
+}
+
+#bierdiv {
+    margin-bottom: 5%;
+}
+
+#flessen,
+#paymentbier {
+    width: 20%;
 }
