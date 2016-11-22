@@ -50,57 +50,79 @@ body {
 
 .BouwTitle {
     width: 50%;
-    float: left;
 }
 
 .BouwProgress {
     padding-top: 1%;
     width: 50%;
+}
+
+@media screen and (min-width: 1400px) {
+    .BouwTitle {
+    float: left;
+}
+
+.BouwProgress {
     float: right;
+}
 }
 
 .CodeTitle {
     width: 50%;
-    float: left;
 }
 
 .CodeProgress {
     padding-top: 1%;
     width: 50%;
-    float: right;
 }
 
+@media screen and (min-width: 1400px) {
+    .CodeTitle {
+    float: left;
+}
+
+.CodeProgress {
+    float: right;
+}
+}
 
 /*Content*/
 
 
 /*contentright*/
 
-.photoleft {
-    float: left;
+   .photoleft {
     width: 40%;
-    clear: both;
     margin-bottom: 1%;
-}
+    }
 
-.photoleft img {
-    margin-left: 15%;
-}
+    .photoleft img {
+        margin-left: 15%;
+    }
 
-.contentright {
-    width: 60%;
-    float: right;
-}
+    .contentright {
+        width: 60%;
+    }
 
-.contentright p {
-    clear: both;
-}
+    .contentright p {
+        clear: both;
+        text-align: justify;
+    }       
 
+
+@media screen and (min-width: 1400px) {
+    .photoleft {
+        float: left;
+    }
+    
+    .contentright {
+        float: right;
+    }
+}
 
 /*contentleft*/
 
 .photoright {
-    float: right;
     width: 40%;
     clear: both;
     margin-bottom: 1%;
@@ -112,13 +134,22 @@ body {
 
 .contentleft {
     width: 60%;
-    float: left;
 }
 
 .contentleft p {
     clear: both;
+    text-align: justify;
 }
 
+@media screen and (min-width: 1400px) {
+    .photoright {
+        float: right;
+    }
+    
+    .contentleft {
+        float: left;
+    }
+}
 
 /*Buttons */
 
