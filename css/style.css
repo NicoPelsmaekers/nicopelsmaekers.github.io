@@ -124,7 +124,6 @@ body {
 
 .photoright {
     width: 40%;
-    clear: both;
     margin-bottom: 1%;
 }
 
@@ -134,6 +133,7 @@ body {
 
 .contentleft {
     width: 60%;
+    clear: both;
 }
 
 .contentleft p {
