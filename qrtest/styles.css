@@ -1,13 +1,10 @@
-h1 {
-    
-}
+
 
 body {
     background-color: lightgray;
 }
 
-p {
-}
+
 #group {
 
     width: 70%;
@@ -32,10 +29,23 @@ p {
 
 
 #member {
-    font-family: "Century Gothic", Serif;
-    font-size: 15px;
+    font-family: "Century Gothic";
+    font-size: 20px;
+    margin-top: 0.4%;
+}
+
+input[type=checkbox]{
+    width: 20px;
+    height: 20px;
 }
 
 .input-group {
     margin-top: 5%;
+    height: 50px;
+}
+
+
+
+.form-control {
+    height: 50px;
 }

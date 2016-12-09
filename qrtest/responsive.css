@@ -1,0 +1,57 @@
+@media only screen and (min-width: 768px) {
+    h1{
+        font-size: 70px;
+    }
+    #group {
+        width: 90%;
+    }
+    .group-members {
+        width: 60%;
+        margin: auto;
+    }
+    #member {
+        font-family: "Century Gothic";
+        font-size: 25px;
+        margin-top: 1%;
+    }
+    input[type=checkbox] {
+        width: 25px;
+        height: 25px;
+    }
+    .input-group {
+        margin-top: 5%;
+        height: 60px;
+    }
+    .form-control {
+        height: 60px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    h1{
+        font-size: 100px;
+    }
+    
+    #group {
+        width: 90%;
+    }
+    .group-members {
+        width: 80%;
+        margin: auto;
+    }
+    #member {
+        font-family: "Century Gothic";
+        font-size: 35px;
+        margin-top: 1%;
+    }
+    input[type=checkbox] {
+        width: 30px;
+        height: 30px;
+    }
+    .input-group {
+        margin-top: 5%;
+        height: 80px;
+    }
+    .form-control {
+        height: 80px;
+    }
+}
