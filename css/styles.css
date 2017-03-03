@@ -1,0 +1,379 @@
+@font-face {
+  font-family: 'MyWebFont';  
+  src: url('https://nicopelsmaekers.github.io/fonts/BRADHITC.ttf') format('truetype'); /* Safari, Android, iOS */
+      
+}
+
+
+#wrapper {
+    width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.par-title {
+    font-family: 'MyWebFont',monospace;
+    font-size: 300%;
+    text-align: center;
+    letter-spacing: 12px;
+}
+
+#CubaI {
+    color: #DC971A;
+}
+
+#topwrapper {
+    margin-top: 2%;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;    
+    display: block;
+}
+
+
+#overview {
+    width: 90%;
+    margin: auto;
+    min-height: inherit;
+}
+#gradientcolor {
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.3), 
+      rgba(255, 255, 255, 0.3)
+    );
+    background-size: cover;
+    min-height: 305px;
+      
+}
+
+/*Front page images lay out */
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+    
+}
+
+.hovereffect:hover img {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+  filter: brightness(0.6);
+  -webkit-filter: brightness(0.6);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;     
+  position: relative;
+  font-size: 17px;
+  background-color: transparent;
+  color: #FFF;
+  padding: 4.2em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+
+.hovereffect a, hovereffect p {
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.overview-img {
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+
+
+#content {
+    margin-bottom: 1%;
+}
+
+
+/*START bottom-content*/
+#bottom-content {
+    width: 90%;
+    margin: auto;
+}
+
+#bottom-content p {
+    text-align: justify;
+}
+.other{
+    clear: both;
+}
+
+.other li{
+    display: inline;
+    margin:auto 0.5% auto auto; 
+    font-size: 90%;
+    letter-spacing: normal;
+ }
+.other li a{
+    color: inherit;
+    text-decoration: none;
+    
+}
+.other span{
+    vertical-align: middle;    
+}
+
+.other li i{
+    vertical-align: middle;
+}
+/*END bottom content*/
+
+.par-footer {
+    font-family: 'MyWebFont',monospace;
+    font-size: 300%;
+    text-align: center;
+    letter-spacing: 12px;
+}
+.par-footer .dropup{
+    display: inline;
+    cursor: pointer;
+}
+
+
+.dropdown-menu li{
+    font-size: 120%;
+    text-align: center;
+}
+
+
+/*Make Responsive*/
+@media(max-width:2560px){
+    #gradientcolor{        
+        min-height:490px;
+    }
+    .overview-img{
+        width: 30%;
+        margin:2% 2% 0% 0%;
+        
+    }
+    .hovereffect{
+        width: 90%;
+        margin-left: 11%;
+        display: block;
+            
+    }
+}
+@media(max-width:1920px){
+    #gradientcolor{        
+        min-height:440px;
+    }
+    .overview-img{
+        width: 30%;
+        margin:4% 2% 0% 0%;
+        
+    }
+   
+    .hovereffect{
+        width: 90%;
+        margin-left: 16%;
+        display: block;
+            
+    }
+}
+@media(max-width:1440px){
+    #gradientcolor{        
+        min-height:320px;
+    }
+    .overview-img{
+        width: 30%;
+        margin:4% 2% 0% 0%;
+        
+    }
+    .hovereffect{
+        width: 90%;
+        margin-left: 11%;
+        display: block;
+            
+    }
+}
+@media(max-width:1366px){
+    #gradientcolor{        
+        min-height:310px;
+    }
+    .overview-img {
+    margin-top: 4.4%;
+    }
+    .hovereffect h2{
+        margin:auto;
+        display: block;
+            
+    }
+   
+}
+@media(max-width:1280px){
+    #gradientcolor{        
+        min-height:285px;
+    }
+    
+    
+}
+@media(max-width:1024px){
+    #gradientcolor{        
+        min-height:285px;
+    }
+    .overview-img {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    }
+     .hovereffect h2{
+        margin:auto;
+        display: block;
+            
+    }
+}
+@media(max-width:995px){
+    #gradientcolor{        
+        min-height:490px;
+    }
+}
+/*iPad*/
+@media(max-width:768px){
+    .overview-img{
+        width: 60%;
+        margin-left: 17%;
+    }
+    #gradientcolor{        
+        min-height:880px;
+    }
+  
+}
+
+@media(max-width:600px){    
+    #gradientcolor{        
+        min-height:650px;
+    }
+     .hovereffect h2{
+        padding: 1.7em 0;
+    }
+    
+}
+
+/*iPhone 6 Plus*/
+@media(max-width:450px){    
+    #gradientcolor{        
+        min-height:650px;
+    }
+    .overview-img{
+        width: 80%;
+        height: 80%;
+        margin-left: 10%;
+        margin-top: 4.4%;
+    }
+    
+    .other li{
+        text-align: center;
+        font-size: 90%;
+        letter-spacing: normal;
+
+    }
+    .other span{
+        vertical-align: middle;
+        display: none;
+
+    }
+    .other span.caret{
+        vertical-align: middle;
+        display: inline-block;
+
+    }
+    .otherli i{
+        vertical-align: middle;
+    }
+}
+/*Nexus 6P*/
+@media(max-width:435px){    
+    #gradientcolor{        
+        min-height:600px;
+    }
+    .overview-img{
+        width: 80%;
+        height: 80%;
+        margin-left: 6%;
+        margin-top: 4.4%;
+    }
+}
+/*iPhone 6*/
+@media(max-width:375px){    
+    #gradientcolor{        
+        min-height:590px;
+    }
+    .overview-img{
+        width: 80%;
+        height: 80%;
+        margin-left: 6%;
+        margin-top: 6%;
+    }
+}
+/*iPhone 5*/
+@media(max-width:320px){    
+    #gradientcolor{        
+        min-height:480px;
+    }
+    .overview-img{
+        width: 80%;
+        height: 80%;
+        margin-left: 6%;
+        margin-top: 4.4%;
+    }
+}
+
+
+.footer {
+   
+}
