@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'MyWebFont';  
+  src: url('https://nicopelsmaekers.github.io/fonts/BRADHITC.ttf') format('truetype'); /* Safari, Android, iOS */
+      
+}
+
+body{
+    background: #fff;
+}
+
+.page{    
+    margin: auto;
+    
+}
+h1 a,
+h1 a:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+.title{
+    font-family: "MyWebFont",monospace;
+    font-weight: bold;
+    font-size: 500%
+}
+.wrapoverlay {    
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+  
+.bar {
+    width: 450px;
+    height: 300px;
+    background: url(/img/main/bar.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 13%;
+    margin-top: 2.3%;
+}
+
+.events {
+    width: 450px;
+    height: 300px;
+    background: url(/img/main/events.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 13%;
+    margin-top: 2.3%
+}
+.ontour {
+    width: 450px;
+    height: 300px;
+    background: url(/img/main/ontour.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 13%;
+    margin-top: 2%
+}
+
+.consult {
+    width: 450px;
+    height: 300px;
+    background: url(/img/main/consult.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 13%;
+    margin-top: 2%
+}
+.overlay {    
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.bar .overlay h1{
+    font-family: 'MyWebFont',sans-serif;
+    font-weight: bold;
+    margin-top: 30%;
+    color: #fff;
+	text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px #000;
+}
+.events .overlay h1{
+    font-family: 'MyWebFont',sans-serif;
+    font-weight: bold;
+    margin-top: 30%;
+	color: #fff;
+	text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px #000;
+}
+.ontour .overlay h1{
+    font-family: 'MyWebFont',sans-serif;
+    font-weight: bold;
+    margin-top: 30%;
+	color: #fff;
+	text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px #000;
+}
+.consult .overlay h1{
+    font-family: 'MyWebFont',sans-serif;
+    font-weight: bold;
+    margin-top: 30%;
+	color: #fff;
+	text-align: center;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 3px#000;
+}
+
+#wrapper {
+    height: 700px;
+}
+
+.content {
+    width: 80%;
+    margin: auto;    
+}
+
+#CubaI {
+    color:#DC971A;
+}
