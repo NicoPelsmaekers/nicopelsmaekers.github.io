@@ -1,0 +1,198 @@
+@media only screen and (max-width: 1440px) {
+    #wrapper {
+        max-height: 600px;
+    }
+    .bar {
+        width: 400px;
+        height: 250px;
+        margin-left: 9%;
+        margin-top: 3%;
+    }
+    .events {
+        width: 400px;
+        height: 250px;
+        margin-left: 12.5%;
+        margin-top: 3%;
+    }
+    .ontour {
+        width: 400px;
+        height: 250px;
+        margin-left: 9%;
+        margin-top: 3%;
+    }
+    .consult {
+        width: 400px;
+        height: 250px;
+        margin-left: 12.5%;
+        margin-top: 3%;
+    }
+    .bar .overlay h1 {
+        margin-top: 27%;
+    }
+    .events .overlay h1 {
+        margin-top: 27%;
+    }
+    .ontour .overlay h1 {
+        margin-top: 27%;
+    }
+    .consult .overlay h1 {
+        margin-top: 27%;
+    }
+    .menu {
+        font-size: 200%;
+    }
+    .dropdown-menu li {
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    #wrapper {
+        max-height: 600px;
+    }
+    .bar {
+        width: 400px;
+        height: 250px;
+        margin-left: 7%;
+        margin-top: 3%;
+    }
+    .events {
+        width: 400px;
+        height: 250px;
+        margin-left: 12.5%;
+        margin-top: 3%;
+    }
+    .ontour {
+        width: 400px;
+        height: 250px;
+        margin-left: 7%;
+        margin-top: 3%;
+    }
+    .consult {
+        width: 400px;
+        height: 250px;
+        margin-left: 12.5%;
+        margin-top: 3%;
+    }
+    .bar .overlay h1 {
+        margin-top: 27%;
+    }
+    .events .overlay h1 {
+        margin-top: 27%;
+    }
+    .ontour .overlay h1 {
+        margin-top: 27%;
+    }
+    .consult .overlay h1 {
+        margin-top: 27%;
+    }
+    .menu {
+        font-size: 200%;
+    }
+    .dropdown-menu li {
+        font-size: 150%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #wrapper {
+        max-height: 600px;
+    }
+    .bar {
+        width: 350px;
+        height: 250px;
+        margin-left: 2%;
+        margin-top: 4%;
+    }
+    .events {
+        width: 350px;
+        height: 250px;
+        margin-left: 10.5%;
+        margin-top: 4%;
+    }
+    .ontour {
+        width: 350px;
+        height: 250px;
+        margin-left: 2%;
+        margin-top: 4%;
+    }
+    .consult {
+        width: 350px;
+        height: 250px;
+        margin-left: 10.5%;
+        margin-top: 4%;
+    }
+    .bar .overlay h1 {
+        margin-top: 30%;
+    }
+    .events .overlay h1 {
+        margin-top: 30%;
+    }
+    .ontour .overlay h1 {
+        margin-top: 30%;
+    }
+    .consult .overlay h1 {
+        margin-top: 30%;
+    }
+    .menu {
+        font-size: 160%;
+    }
+    .dropdown-menu li {
+        font-size: 140%;
+    }
+    .title {
+        font-size: 400%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #wrapper {
+        max-height: 530px;
+    }
+    .bar {
+        width: 300px;
+        height: 200px;
+        margin-left: -3%;
+        margin-top: 0%;
+    }
+    .events {
+       width: 300px;
+        height: 200px;
+        margin-left: 55%;
+        margin-top: 8%;
+    }
+    .ontour {
+        width: 300px;
+        height: 200px;
+        margin-left: -3%;
+        margin-top: 5%;
+    }
+    .consult {
+        width: 300px;
+        height: 200px;
+        margin-left: 55%;
+        margin-top: -32.5%;
+    }
+    .bar .overlay h1 {
+        margin-top: 30%;
+    }
+    .events .overlay h1 {
+        margin-top: 30%;
+    }
+    .ontour .overlay h1 {
+        margin-top: 30%;
+    }
+    .consult .overlay h1 {
+        margin-top: 30%;
+    }
+    .menu {
+        width: 100%;
+        font-size: 200%;
+    }
+    .dropdown-menu li {
+        font-size: 150%;
+    }
+    .title {
+        font-size: 400%;
+    }
+}
