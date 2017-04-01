@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'MyWebFont';  
+  src: url('https://nicopelsmaekers.github.io/fonts/BRADHITC.ttf') format('truetype'); /* Safari, Android, iOS */
+      
+}
+
 .navbar {
 	width: 80%;
     margin: auto;
@@ -6,7 +12,7 @@
     width: 60%;        
     margin: auto;
     padding: 1%;
-    font-family: "Bradley Hand ITC";
+    font-family: "MyWebFont";
     font-size: 250%;
 }
 
