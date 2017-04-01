@@ -94,6 +94,58 @@
     }
 }
 
+@media only screen and (max-width: 1080px) {
+    #wrapper {
+        max-height: 600px;
+    }
+    .bar {
+        width: 350px;
+        height: 250px;
+        margin-left: 2%;
+        margin-top: 4%;
+    }
+    .events {
+        width: 350px;
+        height: 250px;
+        margin-left: 10.5%;
+        margin-top: 4%;
+    }
+    .ontour {
+        width: 350px;
+        height: 250px;
+        margin-left: 2%;
+        margin-top: 4%;
+    }
+    .consult {
+        width: 350px;
+        height: 250px;
+        margin-left: 10.5%;
+        margin-top: 4%;
+    }
+    .bar .overlay h1 {
+        margin-top: 30%;
+    }
+    .events .overlay h1 {
+        margin-top: 30%;
+    }
+    .ontour .overlay h1 {
+        margin-top: 30%;
+    }
+    .consult .overlay h1 {
+        margin-top: 30%;
+    }
+    .menu {
+        width: 80%;
+        font-size: 200%;
+    }
+    .dropdown-menu li {
+        font-size: 150%;
+    }
+    .title {
+        font-size: 400%;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     #wrapper {
         max-height: 600px;
