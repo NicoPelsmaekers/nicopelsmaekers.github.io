@@ -1,0 +1,18 @@
+.thumbnail {
+	padding: 0px;
+    border: 1px solid #efe7e7;
+    min-height: 430px;
+}
+.edition{
+    width: 23%;
+    float: left;
+    display: inline;
+    margin-left: 1%;
+}    
+
+.caption h3 span {
+    float: right;
+}
+.thumbnail img{
+    min-height: 250px;
+}
